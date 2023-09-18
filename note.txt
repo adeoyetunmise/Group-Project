@@ -1,0 +1,8 @@
+NOTE on GIT
+
+--All Branches are to add and commit and push to their branches and then make a pull request on GITHUB
+    -git add .
+    -git commit -m "initial commit"
+    -git push -u origin "branch_name"
+--Master is meant to merge the requests and pull to view the source code on VSCODE
+    -git pull
