@@ -1,0 +1,210 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.firstbox{
+    background-color: black;
+    border-radius: 50px;
+    height: 83vh;
+    width:40vh; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 30px;
+    box-shadow: 1px 4px 10px rgb(58, 57, 57);
+    
+}
+
+.secondbox{
+    position: relative;
+    top: 14px;
+    background-color: whitesmoke;
+    height: 79vh;
+    width: 37vh;
+    border-radius: 37px;
+    background-image: url('./Images/iphone13.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.upperBox{
+    position: relative;
+    background-color: black;
+    height: 3vh;
+    width: 20vh;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    left: 60px;
+    z-index: 1;
+
+}
+
+.upperSmallBox{
+    position: relative;
+    height: 1vh;
+    width: 6vh;
+    background-color: gray;
+    border: none;
+    border-radius: 70px;
+    left: 53px;
+}
+.upperCircle{
+    position: relative;
+    height: 1vh;
+    width: 6%;
+    background-color: gray;
+    border: none;
+    border-radius: 100%;
+    left: 110px; 
+    top: -6px;
+}
+
+.volumeUp{
+   height: 6vh;
+   position: relative;
+   background-color: black;
+   border: none;
+   top: 140px;
+   left: 19px;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px; 
+   cursor: pointer;
+
+}
+
+.volumeDown{
+    height: 6vh;
+   position: relative;
+   background-color:black;
+   border: none;
+   top: 190px;
+   left: 7px;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px; 
+   cursor: pointer;
+
+}
+
+.powerBtn{
+    height: 9vh;
+    position: relative;
+    background-color: black;
+    border: none;
+    top: 150px;
+    right: 8px;
+    border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+   cursor: pointer;
+
+}
+
+.mainIcon{
+    position: relative;
+    /* border: 1px solid red; */
+    display: flex;
+    top: 325px;
+    height: 10vh;
+    gap: 1px;
+}
+
+#weather{
+    position: relative;
+    height: 8vh;
+    top: 7px;
+}
+
+#exam{
+    position: relative;
+    height: 9vh;
+    top: 7px;
+    left: 8px;
+}
+
+#love{
+    position: relative;
+    height: 9vh;
+    top: 7px;
+    left:8px;
+}
+
+#todo{
+    position: relative;
+    height: 9vh;
+    top: 7px;
+    left: 10px;
+}
+
+
+.appIconDiv{
+    position: relative;
+    height:8vh;
+    top: 390px;
+    background-color: rgb(56, 43, 43);
+    border: none;
+    border-radius: 18px;
+   
+}
+.appIcon{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    left: 14px;
+}
+#phone{
+    position: relative;
+    border-radius: 10px;
+    height: 6vh;
+    top: 7px;
+
+}
+#contact{
+    position: relative;
+    border-radius: 10px;
+    height: 6vh;
+    top: 7px;
+
+}
+#message{
+    position: relative;
+    border-radius: 10px;
+    height: 6vh;
+    top: 7px;
+
+}
+#music{
+    position: relative;
+    border-radius: 10px;
+    height: 6vh;
+    top: 7px;
+
+}
+
+.staySafe{
+   display: flex;
+   justify-content: space-between;
+   /* border: 1px solid red;  */
+   margin-top: -10px;
+    
+}
+
+#safe{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+     Geneva, Verdana, sans-serif;
+}
+
+.signals{
+    /* border: 1px solid red; */
+    margin-right: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+#signal{
+    height: 2vh;
+    
+}
+
