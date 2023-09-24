@@ -1,0 +1,160 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.firstbox {
+  background-color: black;
+  border-radius: 50px;
+  height: 90vh;
+  width: 20%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 30px;
+  box-shadow: 1px 4px 10px rgb(58, 57, 57);
+}
+
+.secondbox {
+  position: relative;
+  top: 14px;
+  background-color: whitesmoke;
+  height: 88vh !important;
+  width: 100%;
+  border-radius: 37px;
+  background-image: url("./Images/iphone13.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.upperBox {
+  position: relative;
+  background-color: black;
+  height: 3vh;
+  width: 47% !important;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  left: 70px;
+}
+
+.upperSmallBox {
+  position: relative;
+  height: 1vh;
+  width: 6vh;
+  background-color: gray;
+  border: none;
+  border-radius: 70px;
+  left: 37px;
+  top: 4px;
+}
+.upperCircle {
+  position: relative;
+  height: 1vh;
+  width: 6%;
+  background-color: gray;
+  border: none;
+  border-radius: 100%;
+  left: 85px;
+  top: -2px;
+}
+
+.volumeUp {
+  height: 6vh;
+  position: relative;
+  background-color: black;
+  border: none;
+  top: 140px;
+  left: 19px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  cursor: pointer;
+}
+
+.volumeDown {
+  height: 6vh;
+  position: relative;
+  background-color: black;
+  border: none;
+  top: 190px;
+  left: 7px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  cursor: pointer;
+}
+
+.powerBtn {
+  height: 9vh;
+  position: relative;
+  background-color: black;
+  border: none;
+  top: 150px;
+  right: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+
+.staySafe {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red;  */
+  margin-top: -10px;
+}
+
+#safe {
+  /* border: 1px solid red; */
+  margin-left: 25px;
+  font-size: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.signals {
+  /* border: 1px solid red; */
+  margin-right: 25px;
+  display: flex;
+  gap: 5px;
+}
+
+#signal {
+  height: 2vh;
+}
+
+#lte {
+  color: #ffffff;
+  font-size: 10px;
+  position: relative;
+  top: -2px !important;
+  left: 2px;
+}
+
+.timeContainer {
+  position: relative;
+  color: white;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 76vh;
+  top: 10px;
+}
+
+.timeContainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 30px;
+  font-weight: 600;
+}
+#homeButton {
+  width: 120px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  top: 9px;
+  left: 3px;
+}

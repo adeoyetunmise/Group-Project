@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello, how are you?</h1>
 
-    
-    <h1>Hello Group Members...</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.css" />
+  <title>Mobile Phone</title>
+</head>
+
+<body>
+  <button class="volumeUp"></button>
+  <button class="volumeDown"></button>
+  <div class="firstbox">
+    <div class="secondbox">
+      <div class="upperBox">
+        <div class="upperSmallBox"></div>
+        <div class="upperCircle"></div>
+      </div>
+
+      <div class="staySafe">
+        <div id="safe" style="color: white">
+          <marquee direction="left" behavior="slide" loop="20" scrolldelay="200" scrollamount="3">MTN-Stay Safe
+          </marquee>
+        </div>
+        <div class="signals">
+          <div>
+            <img src="/Images/icon.png" alt="" srcset="" id="signal" /><span id="lte">LTE</span>
+          </div>
+          <div id="battery">
+            <i class="fa-solid fa-battery-full" style="color: #ffffff"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeContainer">
+        <div class="timeContainer2">
+          <div id="lock">
+            <i class="fa-solid fa-lock fa-2xs" style="color: #eef1f6"></i>
+          </div>
+          <div id="time"></div>
+          <div id="date"></div>
+        </div>
+        <div>
+          <button onclick="homeButton()" id="homeButton"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="powerBtn"></button>
 </body>
+<script src="script.js"></script>
+
 </html>

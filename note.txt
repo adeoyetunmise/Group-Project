@@ -1,6 +1,6 @@
 NOTE on GIT
 
---All Branches are to add and commit and push to their branches and then make a pull request on GITHUB
+--All Branches are to add and commit and push to their branches and then make a pull request on GITHUB but leave the merging for Master
     -git add .
     -git commit -m "initial commit"
     -git push -u origin "branch_name"
